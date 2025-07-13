@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Super Site Vitrine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png"> </head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mon Entreprise</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content container">
+            <img src="images/banniere.jpg" alt="Bannière de bienvenue" id="hero-image">
+            <div class="hero-text">
+                <h2>Bienvenue sur notre site !</h2>
+                <p>Découvrez nos solutions innovantes pour vos besoins.</p>
+                <a href="#services" class="btn">Nos Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="a-propos" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>À propos de nous</h2>
+                    <p>Nous sommes une équipe passionnée dédiée à la création de solutions sur mesure pour nos clients. Forts de notre expertise et de notre engagement, nous transformons vos idées en réalité.</p>
+                    <p>Notre mission est de fournir des services de qualité supérieure tout en bâtissant des relations durables avec ceux que nous servons.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/a_propos.jpg" alt="Notre équipe au travail" id="about-us-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="images/service1.jpg" alt="Service de design web" id="service-image-1">
+                    <h3>Design Web</h3>
+                    <p>Création de sites web esthétiques et fonctionnels, adaptés à vos besoins.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/service2.jpg" alt="Service de développement logiciel" id="service-image-2">
+                    <h3>Développement Logiciel</h3>
+                    <p>Solutions logicielles sur mesure pour optimiser votre productivité.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/service3.jpg" alt="Service de marketing digital" id="service-image-3">
+                    <h3>Marketing Digital</h3>
+                    <p>Stratégies efficaces pour améliorer votre visibilité en ligne et atteindre votre public.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>N'hésitez pas à nous contacter pour toute question ou demande de devis.</p>
+            <form action="#" method="POST">
+                <input type="text" name="nom" placeholder="Votre Nom" required>
+                <input type="email" name="email" placeholder="Votre Email" required>
+                <textarea name="message" placeholder="Votre Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Envoyer le Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mon Entreprise. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
